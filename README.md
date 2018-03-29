@@ -56,9 +56,27 @@ someClass.setListener {
 Now you can use lambdas and the whole Kotlin power. One more important thing
 is that all methods are optional
 
+**Implementation**
+Add this code to your build.gradle in project level:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Then add this two dependencies to your module:
+```
+compile 'com.github.root1991.Trembita:trembita-processor:0.1.0-alpha'
+compile 'com.github.root1991.Trembita:trembita-annotations:0.1.0-alpha'
+```
 **Problems that would be fixed in following releases**
 
 - You should rebuild the project after adding `@Trembita` annotation
 - Library supports only methods that return `Unit`
 - Library does not support properties in interfaces
 
+PS: If you have any suggestions or bugs, please create issues or Pull Requests.
+
+**Enjoy!**
