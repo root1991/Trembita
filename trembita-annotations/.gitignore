@@ -1,0 +1,14 @@
+*.iml
+.idea
+.gradle
+build
+bin
+gen
+local.properties
+default.properties
+.DS_Store
+tmp
+Thumbs.db
+captures
+settings.gradle
+/gradle/.DS_Store

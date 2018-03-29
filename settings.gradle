@@ -1,0 +1,1 @@
+include ':trembita-sample', ':trembita-processor', ':trembita-annotations'
