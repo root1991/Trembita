@@ -4,7 +4,7 @@ Trembita
 This tiny library base on annotation processing and ```kotlin-poet``` can help you to write Kotlin-style interfaces and make your
 code more readable. So lets check which problem it solves:
 
-I'm sure you such interfaces in your code:
+I'm sure you have such interfaces in your code:
 
 ```kotlin
 interface Callback {
@@ -60,11 +60,11 @@ is that all methods are optional
 Add this code to your build.gradle in project level:
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+     repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+     }
+}
 ```
 Then add this two dependencies to your module:
 ```
